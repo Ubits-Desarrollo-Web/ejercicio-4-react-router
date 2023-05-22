@@ -6,9 +6,13 @@ const NavBar = () => {
   return (
     <>
       <div className="NavBar">
+        <Link to={"/"}>
           <img className="Logo" alt="ubits logo" src={logo} />
+        </Link>
         <div className="NavBar-links">
-          {/*Links aqui*/}
+          <Link to={"Sobre"}>
+            Sobre este Ejercicio
+          </Link>
         </div>
       </div>
     </>
